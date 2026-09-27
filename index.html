@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="더누림 요양원 · 더누림 재가복지센터">
+  <title>더누림 요양원 | 더누림 재가복지센터</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo-wrap">
+    <a class="brand" href="index.html" aria-label="더누림 홈">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="brand-copy"><small>Ready to Relax</small><strong>더누림 요양원</strong><em>주간보호 | 방문요양 | 방문목욕</em></span>
+    </a>
+    <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false">☰</button>
+  </div>
+  <nav class="main-nav" aria-label="주 메뉴">
+    <ul>
+      <li><a href="pages/about.html">센터소개</a><div class="submenu"><a href="pages/about.html">인사말</a><a href="#">시설안내</a><a href="#">오시는길</a></div></li>
+      <li><a href="pages/insurance.html">노인장기요양보험</a><div class="submenu"><a href="pages/insurance.html">노인장기요양보험</a></div></li>
+      <li><a href="pages/service.html">서비스안내</a><div class="submenu"><a href="pages/service.html">프로그램안내</a><a href="#">방문요양</a><a href="#">방문간호</a></div></li>
+      <li><a href="#community">커뮤니티</a><div class="submenu"><a href="#gallery">어르신들 갤러리</a><a href="#notice">공지사항</a><a href="#consult">상담신청</a></div></li>
+      <li><a href="#" target="_blank">블로그</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <h1>더누림 요양원<br>더누림 재가복지센터</h1>
+      <p>내집같은 편안함과, 차별화된 서비스를 제공하는<br>VIP 전담 더누림 요양원</p>
+      <a class="hero-phone" href="tel:0316353060">상담전화 031-635-3060</a>
+    </div>
+  </section>
+
+  <section class="quick-wrap" aria-label="바로가기">
+    <div class="quick-grid">
+      <a class="quick q1" href="pages/about.html"><span class="line-icon">⌂♡</span><strong>센터소개</strong></a>
+      <a class="quick q2" href="pages/insurance.html"><span class="line-icon">♡</span><strong>노인장기요양보험</strong></a>
+      <a class="quick q3" href="pages/service.html"><span class="line-icon">⌂</span><strong>요양원</strong></a>
+      <a class="quick q4" href="pages/service.html"><span class="line-icon">♙♙</span><strong>주간보호</strong></a>
+      <a class="quick q5" href="pages/service.html"><span class="line-icon">♧♡</span><strong>방문요양</strong></a>
+      <a class="quick q6" href="#gallery"><span class="line-icon">♡♙</span><strong>어르신들 갤러리</strong></a>
+    </div>
+  </section>
+
+  <section class="welcome">
+    <div class="welcome-copy">
+      <p>내집같은 편안함과, 차별화된 서비스를 제공하는<br>VIP 전담 <b>더누림 요양원</b>이 함께하겠습니다.</p>
+      <a class="outline-btn" href="tel:0316353060">전화상담</a>
+    </div>
+    <div class="family-art" aria-label="가족 이미지 자리">
+      <div class="person p1"></div><div class="person p2"></div><div class="person p3"></div><div class="person p4"></div><div class="person p5"></div><div class="person p6"></div>
+      <p>가족 사진을 <code>images/family.png</code>로 교체하면 원본과 같은 구성이 됩니다.</p>
+    </div>
+  </section>
+
+  <section class="gallery section" id="gallery">
+    <div class="section-head"><small>DENURIM GALLERY</small><h2>더누림 요양원 갤러리</h2><span></span></div>
+    <div class="gallery-grid">
+      <a href="#"><div class="gallery-placeholder">GALLERY 01</div></a><a href="#"><div class="gallery-placeholder">GALLERY 02</div></a><a href="#"><div class="gallery-placeholder">GALLERY 03</div></a><a href="#"><div class="gallery-placeholder">GALLERY 04</div></a>
+    </div>
+    <a class="more-btn" href="#">더보기</a>
+  </section>
+
+  <section class="community section" id="community">
+    <div class="section-head"><small>COMMUNITY</small><h2>커뮤니티</h2><span></span></div>
+    <div class="community-grid">
+      <article class="panel" id="notice"><div class="panel-title"><div><small>NOTICE</small><h3>공지사항</h3></div><a href="#">더 보기 +</a></div><ul class="notice-list"><li><a href="#">더누림 요양원 홈페이지에 오신 것을 환영합니다.</a></li><li><a href="#">공지사항 게시글이 이곳에 표시됩니다.</a></li><li><a href="#">프로그램 및 행사 소식을 알려드립니다.</a></li></ul></article>
+      <article class="panel consult" id="consult"><div class="panel-title"><div><small>CONSULTATION</small><h3>간편상담신청</h3></div></div><form id="consultForm"><label>이름<input name="name" required></label><label>연락처<input name="phone" inputmode="tel" placeholder="010-0000-0000" required></label><label>상담내용<textarea name="message" rows="3" required></textarea></label><label class="agree"><input type="checkbox" required> 개인정보 수집·이용에 동의합니다.</label><button type="submit">문의하기</button></form></article>
+      <article class="panel cs"><small>CUSTOMER CENTER</small><h3>고객만족센터</h3><a class="big-phone" href="tel:0316353060">031-635-3060</a><h4>상담가능시간</h4><p>평일　09:00 - 18:00<br>토요일　09:00 - 13:00<br><b>일요일 및 공휴일 휴무</b></p><p class="help">언제든지 문의주시면<br>친절하게 답변드리겠습니다.</p></article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <a class="brand footer-brand" href="index.html"><span class="brand-mark"><i></i><i></i><i></i><i></i><i></i></span><span class="brand-copy"><small>Ready to Relax</small><strong>더누림 요양원</strong><em>주간보호 | 방문요양 | 방문목욕</em></span></a>
+  <div class="footer-links"><a href="#">개인정보처리방침</a><a href="#">이용약관</a></div>
+  <p>더누림 요양원 · 더누림 재가복지센터　|　고객센터 031-635-3060</p>
+  <p class="copyright">Copyright © 더누림 요양원. All rights reserved.</p>
+</footer>
+<button class="top-btn" aria-label="맨 위로">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
